@@ -4,8 +4,8 @@ function MIN_INJURY_DATE() {
 }
 
 function MAX_INJURY_DATE() {
-	//Dec 31, 2020
-	return new Date(2020,11,31);
+	//Dec 31, 2030
+	return new Date(2030,11,31);
 }
 
 //FirstInjuryDateWindow Display
@@ -34,7 +34,7 @@ function FirstInjuryDateWindow(displayValueUtil, wrappedDate, injuryDateSelectLa
 		width:'auto',
 		textAlign:'center'
 	});
-	
+
 	dateWindow.add(headerLabel);
 
 	var datePicker = Ti.UI.createPicker({
@@ -59,7 +59,7 @@ function FirstInjuryDateWindow(displayValueUtil, wrappedDate, injuryDateSelectLa
 		textAlign: 'center',
 		top: buttonRowWidthBorderPercent
 	});
-	
+
 	okButton.addEventListener('click', function(e) {
 		injuryDateSelectLabel.setText(wrappedDate.getDate().toDateString());
     	dateWindow.close();
@@ -93,7 +93,7 @@ function FirstInjuryDateWindow(displayValueUtil, wrappedDate, injuryDateSelectLa
 	dateWindow.add(tableView);
 
 	dateWindow.open();
-	
+
 	datePicker.addEventListener('change',function(e){
 		wrappedDate.setDate(e.value);
 		injuryDateSelectLabel.setText(wrappedDate.getDate().toDateString());
