@@ -1,0 +1,9 @@
+Privacy Policy
+Your privacy is important to us. It is Angela Yip Designs' policy to collect the most mimimal amout of data possible from you through our app, Personal Injury Tracker.
+
+We don't collect or store any personal information you enter or save in the application. That's none of our business.
+
+The only data collected is related to the technical details of the operation of the application. We can see if there has been a new install or uninstall the app, but not any of the user's specific details. Additionally, if the application crashes, some debug information about the crash is retained. These technical details are collected by all apps in the App Store, and are not specific to the Personal Injury Tracker app. None of these technical details are shared, ever.
+
+This policy is effective as of 1 January 2019.
+
